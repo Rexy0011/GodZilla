@@ -19,10 +19,10 @@ if not TOKEN:
 # =========================
 # BASIC CONFIG
 # =========================
-OWNER_ID = 870179991462236170
-DEV_ID = 870179991462236170
-DEVELOPER_IDS = [870179991462236170]
-DEFAULT_PREFIX = "+"
+OWNER_ID = 1548762802641178766
+DEV_ID = 1548762802641178766
+DEVELOPER_IDS = [1548762802641178766]
+DEFAULT_PREFIX = "."
 
 CORE_DB = Path("db/core.db")
 PREMIUM_DB = Path("db/premium.db")
@@ -36,9 +36,9 @@ ANTINUKE_DIR = Path("antinuke")
 # =========================
 # PREMIUM CONFIG
 # =========================
-SUPPORT_LINK = "https://discord.gg/codexdev"
-INVITE_LINK = "https://discord.com/oauth2/authorize?client_id=1409860321295732808&scope=bot&permissions=8"
-VOTE_LINK = "https://top.gg/bot/1409860321295732808/vote"
+SUPPORT_LINK = "https://discord.gg/WqEaPAtT3"
+INVITE_LINK = "https://discord.com/oauth2/authorize?client_id=1558502746007535786&permissions=8&integration_type=0&scope=bot"
+VOTE_LINK = ""
 SUPPORT_SERVER = SUPPORT_LINK
 BOOSTS_REQUIRED = 1
 LOCKED_COGS = ("ChangeAvatar", "ChangeBanner", "ChangeBio")
