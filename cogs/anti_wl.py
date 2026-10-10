@@ -169,7 +169,7 @@ class Whitelist(commands.Cog):
         embed.add_field(name="**Executor**", value=f"<@!{ctx.author.id}>", inline=True)
         embed.add_field(name="**Target**", value=f"<@!{member.id}>", inline=True)
         embed.set_thumbnail(url=self.bot.user.avatar.url)
-        embed.set_footer(text=f"Developed by Meekly Development™")
+        embed.set_footer(text=f"Developed by GodZilla Development™")
 
         msg = await ctx.send(embed=embed, view=view)
 
@@ -211,7 +211,7 @@ class Whitelist(commands.Cog):
                 embed.add_field(name="**Executor**", value=f"<@!{ctx.author.id}>", inline=True)
                 embed.add_field(name="**Target**", value=f"<@!{member.id}>", inline=True)
                 embed.set_thumbnail(url=self.bot.user.avatar.url)
-                embed.set_footer(text=f"Developed by Meekly Development™")
+                embed.set_footer(text=f"Developed by GodZilla Development™")
 
                 await interaction.response.edit_message(embed=embed, view=None)
             else:
@@ -254,7 +254,7 @@ class Whitelist(commands.Cog):
                 embed.add_field(name="**Executor**", value=f"<@!{ctx.author.id}>", inline=True)
                 embed.add_field(name="**Target**", value=f"<@!{member.id}>", inline=True)
                 embed.set_thumbnail(url=self.bot.user.avatar.url)
-                embed.set_footer(text=f"Developed by Meekly Development™")
+                embed.set_footer(text=f"Developed by GodZilla Development™")
 
                 await interaction.response.edit_message(embed=embed, view=None)
         except TimeoutError:
